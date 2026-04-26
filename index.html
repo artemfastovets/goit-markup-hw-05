@@ -290,13 +290,13 @@
 </footer>
 
 <div class="backdrop" id="modal">
-
+<input type="checkbox" id="modal-toggle" hidden>
   <div class="modal">
-    <a href="#" class="modal-close">
-      <svg width="8" height="8">
-        <use href="images\x.svg"></use>
-      </svg>
-    </a>
+    <button type="button" class="close-btn" data-modal-close>
+  <svg class="close-icon">
+    <use href="./images/icons.svg#icon-x"></use>
+  </svg>
+    </button>
 
     <p class="modal-title">
       Leave your contacts and we will call you back
@@ -355,9 +355,6 @@
       <button type="submit" class="submit-btn">Send</button>
 
     </form>
-
-  </div>
-</div>
 
   </div>
 </div>
